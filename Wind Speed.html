@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wind Speed</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Lattitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plot
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness">Cloudiness</a>
+                    <a class="dropdown-item" href="wind_speed">Wind Speed</a>
+                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="Comparision.html">Comparision</a>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+    </nav>       
+    <div class = "container">
+      <div class="row">
+        <div class = "col-lg-9 col-md-12">
+          <div class="Summary" style="background-color: lightgray;">
+            <div class="summary-body">
+              <h5 class="summary-title">Summary of Wind Speed</h5>
+                <img src="Fig4.png" class=" vizualization rounded float-left" alt="Max Temp">
+                <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet, eros eget gravida malesuada, magna velit commodo neque, in auctor sem lectus pulvinar elit. Mauris consectetur nunc nisi, quis venenatis neque consequat in. Duis vitae tristique mi. Vivamus maximus semper lorem, in suscipit justo laoreet vitae. Morbi iaculis ante eu massa molestie, in scelerisque metus mattis. Etiam pretium malesuada neque quis congue. Nunc non odio a nibh venenatis dignissim. Quisque pellentesque libero eu sem mattis euismod.
+
+                  Aenean tempor massa ut enim fringilla vehicula. Aenean mollis hendrerit elementum. Proin rutrum turpis ut risus vulputate, nec malesuada erat tristique. Fusce congue erat nec commodo viverra. Nunc id nisi sit amet sapien tincidunt euismod sit amet vitae felis. Nullam iaculis, purus a luctus semper, massa est condimentum nisi, sed hendrerit nibh justo sed orci. Nulla bibendum libero nec eros commodo, ut aliquet purus rhoncus. In suscipit ipsum ut tincidunt consectetur. Sed nec erat nulla.</p>
+            </div>
+          </div>
+        </div>
+        <div class = "col-lg-3 col-md-12">
+          <div class= "Visualization" style= "background-color: lightgray;">
+            <h5 class= "Visualization">Visullization</h5>
+            <img src="Fig1.png" class="rounded float-left" alt="...">
+            <img src="Fig2.png" class="rounded float-right" alt="...">
+            <img src="Fig3.png" class="rounded float-left" alt="...">
+            <img src="Fig4.png" class="rounded float-right" alt="...">
+              <p class= "Vis-image"> IMages go here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
